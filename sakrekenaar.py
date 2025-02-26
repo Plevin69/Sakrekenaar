@@ -1,3 +1,5 @@
+import os
+
 # berekenings word gedoen met funksies, een vir plus, minus, deel en maal, en om die uitset skoon te maak.
 def maal(num1, num2):
     answer = float(num1) * float(num2)
@@ -12,7 +14,7 @@ def minus(num1, num2):
     answer = int(num1) - int(num2)
     return answer
 def skoon():
-    return None
+    os.system('cls');
 
 # Die sentinal veranderlike word verklaar as 1, sodat 'n while loop kan hardloop totdat hierdie veranderlike 0 is
 sent = 1
